@@ -16,15 +16,15 @@ const NavLg = () => {
       </div>
       <div className="flex items-center gap-2">
       <div className="flex font-medium">
-        <h1 className="px-3 py-1 hover:text-bgCol-100 hover:bg-red-50 rounded-lg">Home</h1>
+        <h1 className="px-3 py-1 text-bgCol-100 bg-red-50 rounded-lg">Home</h1>
         <h1 className="px-3 py-1 hover:text-bgCol-100 hover:bg-red-50 rounded-lg">Events</h1>
         <h1 className="px-3 py-1 hover:text-bgCol-100 hover:bg-red-50 rounded-lg">About Us</h1>
         <h1 className="px-3 py-1 hover:text-bgCol-100 hover:bg-red-50 rounded-lg">Contact Us</h1>
       </div>
       <p className="text-lg">|</p>
       <div className="flex items-center gap-2">
-        <button className="font-medium px-3 py-1 border-2 border-red-100 hover:border-bgCol-100 rounded-lg">Log In</button>
-        <button className="font-medium px-3 py-1 border-2 border-red-100 hover:border-bgCol-100 rounded-lg">SignUp</button>
+        <button className="font-medium px-3 py-1 border-4 border-red-100 bg-bgCol-50 hover:border-bgCol-100 rounded-lg">Log In</button>
+        <button className="font-medium px-3 py-1 border-4 border-red-100 bg-bgCol-50 hover:border-bgCol-100 rounded-lg">SignUp</button>
       </div>
       </div>
     </div>

@@ -5,11 +5,15 @@ import './App.css';
 import Faqpage from "./Components/FAQ/faqpage";
 import Navbar from "./Components/Navbar/Navbar";
 
+//Pages
+import Home from "./Pages/Home";
+
 function App() {
   return (
     <>
-    <div>
-      <Navbar />
+    <Navbar />
+    <div className="mx-4 lg:mx-36">
+      <Home />
     </div>
     </>
   )
