@@ -3,6 +3,7 @@ import React from "react";
 import SimpleSlider from "../Components/Carousal/SuccessCarousal";
 import Figures from "../Components/Figures";
 
+
 const Home = () => {
   return (
     <>
