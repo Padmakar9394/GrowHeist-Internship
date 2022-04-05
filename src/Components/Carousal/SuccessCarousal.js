@@ -29,7 +29,7 @@ export default class CenterMode extends Component {
     };
     return (
       <div className="mt-36">
-        <h2 className="text-3xl font-semibold mb-8">Our Graduates</h2>
+        <h2 className="text-3xl font-semibold mb-8 text-center underline underline-offset-4">Our Graduates</h2>
         <Slider {...settings}>
         <div className="h-52 bg-gray-200 rounded-md">
           <h3 className="px-8 mt-4">I am very glad to be part of GrowHeist. I was in my struggling phase, when I got to know about this Now I am at good position</h3>

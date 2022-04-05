@@ -3,6 +3,7 @@ import React from "react";
 import SimpleSlider from "../Components/Carousal/SuccessCarousal";
 import Figures from "../Components/Figures";
 import Blogs from "../Components/Blogs";
+import JobHiring from "../Components/Carousal/JobPostingCarousal";
 import CarrerServices from "../Components/Services/CarrerServices";
 
 
@@ -27,11 +28,14 @@ const Home = () => {
           </div>
           <button className="mt-4 lg:m-0 bg-bgCol-100 text-white font-medium rounded px-3 py-4 w-full lg:w-1/4">Search Jobs</button>
         </div>
+      </div>
+      <JobHiring />
+      <CarrerServices />
+      <Figures />
+      <div className=" lg:my-24 lg:mx-36">
         <SimpleSlider />
         <Blogs />
       </div>
-      <CarrerServices />
-        <Figures />
     </>
   )
 };
