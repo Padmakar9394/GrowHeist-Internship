@@ -7,7 +7,7 @@ const Blogs = () => {
       <h1 className="text-center font-bold text-2xl mt-36 my-16 underline underline-offset-4">Career Advice</h1>
       <div className="flex flex-wrap gap-24">
         <div className="w-full lg:w-5/12 flex flex-col shadow-lg gap-2 rounded-md">
-          <div className="w-full h-96 rounded-md">
+          <div className="w-full h-72 rounded-md">
             <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                  alt="bg"
                  className="w-full h-full rounded-md"
@@ -39,7 +39,7 @@ const Blogs = () => {
         </div>
 
         <div className="w-full lg:w-5/12 flex flex-col shadow-lg gap-4 rounded-md">
-          <div className="w-full h-96 rounded-md">
+          <div className="w-full h-72 rounded-md">
             <img src="https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80"
                  alt="bg"
                  className="w-full h-full rounded-md"
@@ -71,7 +71,7 @@ const Blogs = () => {
         </div>
 
         <div className="w-full lg:w-5/12 flex flex-col shadow-lg gap-2 rounded-md">
-          <div className="w-full h-96 rounded-md">
+          <div className="w-full h-72 rounded-md">
             <img src="https://images.unsplash.com/photo-1620912189866-474843ba5c14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
                  alt="bg"
                  className="w-full h-full rounded-md"
@@ -103,7 +103,7 @@ const Blogs = () => {
         </div>
 
         <div className="w-full lg:w-5/12 flex flex-col shadow-lg gap-2 rounded-md">
-          <div className="w-full h-96 rounded-md">
+          <div className="w-full h-72 rounded-md">
             <img src="https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                  alt="bg"
                  className="w-full h-full rounded-md"

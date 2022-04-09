@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
+
 export default class CenterMode extends Component {
   render() {
     const settings = {
       dots: true,
+      arrows: false,
       infinite: true,
       slidesToShow: 2,
       slidesToScroll: 2,
